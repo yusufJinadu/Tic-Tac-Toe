@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+    <script type = "text/javascript" src = "assets/js/lib/jquery-3.3.1.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>Document</title>
+</head>
+<body>
+     <div class = "container">
+        <div id = "panel">
+            <h1 >TIC-TAC-TOE <div><span id = "colorDisplay"></span></div> Game</h1>
+            <div id = "strip">       
+                <span id = "msg"></span>               
+             </div>
+        </div>
+     </div>   
+    
+    <div id = "container">
+    <div class = "row">
+        <div class = "col-sm-6">
+            <div class = "squares">
+                 <div class = "slate"> <button id = "start">play-again</button> <p id = "winner"></p></div>       
+                <div class = "square" ><h1 class = "tiles" id = "l11"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l12"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l13"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l21"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l22"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l23"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l31"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l32"></h1></div>
+                <div class = "square" ><h1 class = "tiles" id = "l33"></h1></div>
+            </div>
+
+        </div>
+        <div class = "col-sm-6">
+            <h1>Score keeper</h1>
+            <h1> <span class = "names" id="name1"></span><span id="score1">0</span> - <span id="score2">0</span><span class = "names" id="name2"></span> </h1>
+            <p>playing to <span id="score"> 1</span> </p>
+            <label>Number to Play to</label>
+            <input type = "number" value = "" id = "limit" >
+            
+            <button id = "reset"> Reset</button>
+            
+         </div>
+    </div>
+    <div id = "footer">
+    <footer>
+        <p>This Game has a few bugs that I was unable to fix, I am so sorry about that, I am still very new to this, I hope 
+            I am able to fix them in the nearest future and if anybody can help me with fixing them contact <a href = "">Y_jinadu@yahoo.com</a>
+            In the event of any misbehaviour, please click on the <strong>Play Again</strong> button. When a player wins click on the
+            <strong>Play Again</strong> button to play again and when a player reaches the designated winning number click on the <strong>Reset</strong> button 
+            to start over. If the designated winning number is not set, it automatically becomes 1
+        </p>
+    </footer>
+    </div>
+  <script type = "text/javascript" src = "assets/js/tictac.js"></script>
+    
+</body>
+</html>
