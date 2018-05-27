@@ -22,7 +22,7 @@
     
     <div id = "container">
     <div class = "row">
-        <div class = "col-sm-6">
+        <div class = "col-sm-6 col-xs-6">
             <div class = "squares">
                  <div class = "slate"> <button id = "start">play-again</button> <p id = "winner"></p></div>       
                 <div class = "square" ><h1 class = "tiles" id = "l11"></h1></div>
@@ -37,7 +37,7 @@
             </div>
 
         </div>
-        <div class = "col-sm-6">
+        <div class = "col-sm-6 col-xs-6">
             <h1>Score keeper</h1>
             <h1> <span class = "names" id="name1"></span><span id="score1">0</span> - <span id="score2">0</span><span class = "names" id="name2"></span> </h1>
             <p>playing to <span id="score"> 1</span> </p>
@@ -48,16 +48,16 @@
             
          </div>
     </div>
-    <div id = "footer">
-    <footer>
-        <p>This Game has a few bugs that I was unable to fix, I am so sorry about that, I am still very new to this, I hope 
+   
+    <footer id = "footer">
+        <div class="container">
+          <span class="text-muted">This Game has a few bugs that I was unable to fix, I am so sorry about that, I am still very new to this, I hope 
             I am able to fix them in the nearest future and if anybody can help me with fixing them contact <a href = "">Y_jinadu@yahoo.com</a>
             In the event of any misbehaviour, please click on the <strong>Play Again</strong> button. When a player wins click on the
             <strong>Play Again</strong> button to play again and when a player reaches the designated winning number click on the <strong>Reset</strong> button 
-            to start over. If the designated winning number is not set, it automatically becomes 1
-        </p>
-    </footer>
-    </div>
+            to start over. If the designated winning number is not set, it automatically becomes 1</span>
+        </div>
+      </footer>
   <script type = "text/javascript" src = "assets/js/tictac.js"></script>
     
 </body>

@@ -58,6 +58,10 @@ var player_1 = prompt("Enter name of first Player")
 var player_2 = prompt("Enter name of second Player")
 var limitCounter = 0
 
+$(document).ready(function(){
+    $('.footer').css('margin-top', $(document).height() - ( $('.container').height() + $('.footer').height()) - 50 );
+});
+
 name()
 play()
 
